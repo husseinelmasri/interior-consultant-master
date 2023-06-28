@@ -109,9 +109,9 @@ text-align: center;
 }
 
 .secondary-content{
-    width:30%;
+    width:60%;
     position: relative;
-    left:65%;
+    left:135%;
     top:-100px;
    background-color: hsl(0, 0%, 8%);
     padding-left:1rem;
@@ -138,7 +138,9 @@ text-align: center;
 .secondary-header p{
     color:grey;
 }
-
+.secondary-text{
+    font-size: 2rem;
+}
 @media(max-width:1150px){
 
     .main-content{
@@ -176,6 +178,11 @@ text-align: center;
 }
 .nav-links .show{
     opacity: 1;
+}
+
+.secondary-content{
+  
+    left:35%;
 }
 
   }
